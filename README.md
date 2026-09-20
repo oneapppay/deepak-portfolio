@@ -1,6 +1,6 @@
-# Deepak R — Portfolio
+# Deepak Thimmireddy — Portfolio
 
-Personal site for Deepak R, Sr. DevOps / Cloud Engineer. Built with Vite, React, TypeScript, and CSS for GitHub Pages.
+Personal site for Deepak Thimmireddy, Sr. DevOps / Cloud Engineer. Built with Vite, React, TypeScript, and CSS for GitHub Pages.
 
 ## Local development
 

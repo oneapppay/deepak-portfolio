@@ -1,8 +1,8 @@
 export const profile = {
-  name: "Deepak R",
+  name: "Deepak Thimmireddy",
   firstName: "Deepak",
-  lastName: "R",
-  initials: "DR",
+  lastName: "Thimmireddy",
+  initials: "DT",
   title: "Sr. DevOps / Cloud Engineer",
   organization: "JPMorgan Chase",
   phone: "+1 774-777-8562",

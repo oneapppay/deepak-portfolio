@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Inter:wght@500;600;700;800&family=Space+Grotesk:wght@700&display=swap");
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body { width: 1200px; height: 630px; overflow: hidden; background: #070b14; }
+      .card {
+        width: 1200px;
+        height: 630px;
+        padding: 72px 88px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 22px;
+        background:
+          radial-gradient(700px 360px at 90% 10%, rgba(94, 234, 212, 0.16), transparent 55%),
+          radial-gradient(600px 300px at 8% 90%, rgba(139, 92, 246, 0.18), transparent 50%),
+          linear-gradient(160deg, #0b1220 0%, #070b14 100%);
+        color: #eef2ff;
+        font-family: Inter, sans-serif;
+      }
+      .kicker { letter-spacing: 3px; text-transform: uppercase; font-size: 16px; color: #99f6e4; font-weight: 600; }
+      .name { font-family: "Cormorant Garamond", serif; font-style: italic; font-size: 84px; line-height: 0.95; }
+      .name strong { font-family: "Space Grotesk", sans-serif; font-style: normal; color: #5eead4; }
+      .role { font-size: 28px; font-weight: 600; color: #cbd5e1; }
+      .org { font-size: 20px; color: #94a3b8; }
+      .chips { display: flex; gap: 12px; margin-top: 12px; }
+      .chip {
+        padding: 10px 16px;
+        border-radius: 999px;
+        border: 1px solid rgba(94, 234, 212, 0.28);
+        background: rgba(255,255,255,0.04);
+        font-size: 15px;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <p class="kicker">Portfolio</p>
+      <h1 class="name">Deepak <strong>R</strong></h1>
+      <p class="role">Sr. DevOps / Cloud Engineer</p>
+      <p class="org">JPMorgan Chase · Plano, TX · 5+ years AWS, Azure, Kubernetes</p>
+      <div class="chips">
+        <span class="chip">Terraform</span>
+        <span class="chip">EKS / AKS</span>
+        <span class="chip">CI/CD</span>
+        <span class="chip">NIST 800-53</span>
+      </div>
+    </div>
+  </body>
+</html>

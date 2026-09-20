@@ -9,8 +9,8 @@ export const profile = {
   phoneHref: "tel:+17747778562",
   email: "dpkr65@gmail.com",
   emailHref: "mailto:dpkr65@gmail.com",
-  linkedin: "",
-  linkedinLabel: "LinkedIn",
+  linkedin: "https://www.linkedin.com/in/deepak-l-t-bab7551b9/",
+  linkedinLabel: "linkedin.com/in/deepak-l-t",
   summary:
     "5 years in DevOps and cloud infrastructure across banking, government healthcare, and EdTech.",
   about:
@@ -47,8 +47,8 @@ export const contactTiles = [
   {
     id: "linkedin",
     label: "LinkedIn",
-    value: "Available on request",
-    href: "",
+    value: "linkedin.com/in/deepak-l-t",
+    href: "https://www.linkedin.com/in/deepak-l-t-bab7551b9/",
   },
 ] as const
 

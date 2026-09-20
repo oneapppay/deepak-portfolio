@@ -13,6 +13,7 @@ import {
   IconUser,
   IconZap,
 } from "./Icons"
+import portrait from "../assets/portrait.png"
 
 export function Hero() {
   const [index, setIndex] = useState(0)
@@ -137,9 +138,12 @@ export function Hero() {
               <IconZap width={20} height={20} />
             </span>
             <div className="portrait-blob">
-              <span className="portrait-monogram" aria-hidden="true">
-                {profile.initials}
-              </span>
+              <img
+                src={portrait}
+                alt={`${profile.name}, ${profile.title}`}
+                width={640}
+                height={640}
+              />
             </div>
           </div>
         </div>
